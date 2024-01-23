@@ -384,7 +384,14 @@
     </footer> 
     <script>
         function appear(){
-            document.querySelector('.nav-list').style.display='block'
+            // document.querySelector('.nav-list').style.display='block'
+            if(document.querySelector('.nav-list').style.display=='block'){
+                document.querySelector('.nav-list').style.display='none'
+
+            }
+            else{
+                document.querySelector('.nav-list').style.display='block'
+            }
         }
     </script>
 </body>
