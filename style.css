@@ -630,6 +630,10 @@ nav .icon{
    font-size: 8px;
     
 }
+.img-card div h5{
+    font-size: 18px;
+     
+ }
 
 
 @media  screen and (max-width: 1200px) and (min-width:992px) {
@@ -639,28 +643,54 @@ nav .icon{
 
 }
 @media  screen and (max-width: 786px) and (min-width:600px) {
- .content-feedback{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
- }
- .content-feedback .text{
-    width: 100%;
-    padding: 0px;
- }
-
-
-   
+    .content-feedback{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        row-gap: 16px;
+     }
+     .content-feedback .text{
+        width: 100%;
+        padding: 0px;
+     }
+     .img-card div{
+        padding: 20px;
+        
+    }
+     .img-card div p{
+        font-size: 14px;
+         
+     }
+     .content-feedback .img-card{
+       width: 100%;
+       display: flex;
+       justify-content: flex-start;
+     }
+  
 }
 @media  screen and (max-width: 600px){
     .content-feedback{
         display: flex;
         flex-direction: column;
         width: 100%;
+        row-gap: 16px;
      }
      .content-feedback .text{
         width: 100%;
         padding: 0px;
+     }
+     .img-card div{
+        padding: 20px;
+        
+    }
+     .img-card div p{
+        font-size: 14px;
+         
+     }
+     .content-feedback .img-card{
+       width: 100%;
+       display: flex;
+       justify-content: flex-start;
      }
   
   
